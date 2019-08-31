@@ -1,0 +1,38 @@
+body{
+        text-align: center;
+}
+.parent{ 
+        border-radius: 15px;
+        margin-top: 30px;
+        overflow: hidden;
+        display: inline-block;
+        border: 3px solid #fff; 
+}
+
+.child{
+        text-decoration: none;
+        font-family: cursive;
+        color:white;
+        width:100px; 
+        height:100px; 
+        float:left; 
+        margin-left:0px; 
+        text-align: center; 
+        line-height: 150px; 
+        cursor: pointer; background-color: goldenrod;
+}
+.child:hover{
+        background-color: white;
+        color: black;
+}
+.active{
+        background-color: red; 
+        color: #fff; 
+        font-weight: bold;
+}
+#artBody{
+        background-color: aquamarine;
+}
+#indexBody{
+        background-color: aqua;
+}
