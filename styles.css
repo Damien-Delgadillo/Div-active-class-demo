@@ -13,7 +13,8 @@ body{
 .child{
         text-decoration: none;
         font-family: cursive;
-        color:white;
+        font-weight: bolder;
+        color:red;
         width:100px; 
         height:100px; 
         float:left; 
@@ -28,7 +29,7 @@ body{
 }
 .active{
         background-color: red; 
-        color: #fff; 
+        color:white; 
         font-weight: bold;
 }
 #artBody{
